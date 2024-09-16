@@ -1,0 +1,185 @@
+En testimonials, hay 3 recuadros de comentarios.
+cada uno de ellos tiene 5 estrellas.
+hay dos comentarios que tienen las estrellas alineadas
+el primer comentario no entiendo porque no se alinea
+con la de los demas recuadros
+
+Diseño alternativo de menu
+
+https://www.pinterest.es/pin/540291286560237885/
+
+https://canpizza.eu/ (estos tiene el carrusel con las
+fotos de solo las pizzas) mi idea era hacer algo similar
+, pero pinchando en cada pizza se abre la foto entera
+y en grande informando sobre los ingredientes.
+
+18/07/2023 - LU
+Hola Emiii,
+Como el otro día no terminamos de arreglar las tareas, estaba pensando que si te parece bien hagas vos la seccion que falta, que seria sobre los chicos y el restaurant.
+Mi idea era:
+Una seccion ubicada arriba de la de testimonios, y debajo del "sobre nosotros", la pantalla dividida en la mitad, a la izquierda un carrusel con fotos (de ellos y del local) y a la derecha texto explicativo o de presentación.
+Yo voy a empezar con lo de los idiomas apenas pueda.
+Y creería que con esas dos cosas terminadas + algun que otro detalle ya estaría todo listo, salvo que tengas alguna otra sugerencia o comentario.
+
+19/07/2023
+Hola Lu, como va?
+Me parece bien lo que decis.. hoy vere si le puedo sacar una linda foto a los chicos de la pizzeria para el sobre nosotros.
+Vi que cambiaste la foto de portada.. tal vez le falte un filtro para aclararla no ?
+Hoy veo de subir el resto de las fotos que tengo, para que las veas, y esten.
+Con suerte hoy esa seccion de testimonios la termino y arreglo lo de las estrellitas.
+
+Espero que estes bien.
+
+te dejo esto por ahi te sirve:
+https://bootstrapcreative.com/resources/bootstrap-5-cheat-sheet-classes-index/
+
+25/07
+Corregido carousel de aboutUs.
+Falta mejorar responsive design
+Mejorar el texto, ya que de costado, deja un vacio en la pagina no muy lindo.
+Me gustaria mejorar el carousel del homeview, al menos darle indicadores en el pie de la imagen para que se sepa que es un carousel.
+
+1/08
+Hola Emi,
+Veo bien el about us, no se cual es el vacio que comentas.
+Le cambie el diseño del titulo, para que este igual que todas las otras secciones.
+Si creo que hay que corregir la foto de Frafo ya que se ve como aplastada.
+En cuanto al carrousel de la homeview no le quise poner los indicadores y por eso tiene seteado un time para las slides. Ahi se lo baje para que se muevan mas rapido.
+Jugué un poco con las imagenes del carousel para que queden fijas y se ven cuando se pasa por el menú, creo que queda cool. Un estilo a lo que tienen en can pizza.
+Si no te copa lo sacamos.
+
+2/8
+
+Hola Lu
+Me gusta mucho el diseño del homeview :).. Veo que al modificar el ancho de la pantalla las imagenes mantienen sus definicion. Esta bueno.
+En el apartado menu, veo que aun quedo un background-image, lo comente por si tu intencion era dejarlo. Creo que en lo personal me gusta mas sin.
+El carousel de about us antes estaba como una grilla, teniendo el carousel del lado izquierdo y una reseña del lado derecho. Pero ayer lo modifique y esta asi como esta.
+La foto de fra es temporal, ya que pase por la pizzeria y le saque una foto con el movil.
+Creo que para que no haya lio con el carousel es fundamental que todas las imagenes tengan el mismo tamaño.
+Por otro lado tambien agregue el alt a las img
+--- Cosas que intentare corregir:
+
+- Debajo del google maps se puede ver que hay un mini espacio que permite ver el carousel del homeview. Vere si lo puedo quitar. (ya lo quite en css homeview-container, lo deje comentado para que lo veas)
+- Probare con el cambio de idioma de la pagina. Vi varios tutorials, algunos usan pluggin y otros javaScript, probare esta ultima.
+- Con respecto a responsive designs, no se cual es el minimo de ancho que deberia de tener la pagina, segun investigado, 320px es lo minimo para moviles viejos. Con ese ancho, hay caos en la pagina
+
+--- Opiniones:
+
+- Siento que en el homeview estaria bueno que tenga algun texto. Algo asi como el horario de apertura, telefono (boton para llamar), y direccion (boton)
+
+--- Dudas:
+' porque estamos poniendo className en vez de class? veo que los codigos bootstrap vienen con class, pero si no lo cambiamos a className, no hacen efecto, porque es?
+
+04/08
+
+Bueno anduve haciendo retoques en lo responsive del about us y testimonials. 
+Estaria bueno que tengamos otro sitio de notas donde solo pongamos los valores genericos de las cosas, para que todas las secciones tengan coincidencia entre si. 
+Como por ejemplo, decir que el font-size para pantallas md y lg sea de 1rem, pantallas sm y xs el font-size sea de 0.8rem (estos valores son lo que vi que hay en la pagina)
+como tambien podemos indicar cual es el color principal, las sombras, y tal. 
+
+default:
+font-variation-settings: "wght" 400;
+font-size: 1em;
+color: #3d3d3d;
+line-height: 2rem;
+
+  (xs, sm)
+@media (max-width: 991px) {
+  p.text {
+    padding: 0rem 7rem;
+    font-variation-settings: "wght" 400;
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #3d3d3d;
+  }
+}
+
+6/8
+
+* sincronizacion en los font-sizes y font lines de cada seccion, junto con responsive designs
+* corregido problemas de alineacion en photosgrip, seccion foto de pizzas 
+* PROBLEMA en about us, la foto de fra es mas baja que las demas, y al cambiar de una a otra altera el background
+* correccion en photogrid del tamaño de las pizzas, y la alineacion de las filas con las columnas. correccion en el responsive designs
+
+8/8
+ *mini correcciones en photogrid, y testimonials
+ * agregado de fotos en el homeview
+ * intento frustrado de cambiar de idioma
+ 
+dato curioso con respecto a la traduccion. 
+he observado que en el archivo index.html, empieza el codigo con <html lang="en">. Supongo que eso es incorrecto, ya que si la pagina esta seteada al español, deberia de decir "es" ?
+entiendo que eso es para los motores de busqueda. 
+
+
+8/8
+
+Hola Emi,
+perdon! recien hoy pude entrar a mirar. 
+
+-Sobre el className. Siempre se suele utilizar class, pero como estamos trabajando con React, utiliza className. Sigue siendo como llamar a la class pero se le llama de esa manera. Y no debería darte problemas para reconocer los estilos aunque pongas class en vez de className, pero si va a salir un error molesto en consola y puede generar errores al llevarlo a producción. Por ende, todo lo que veas con class, hay que reemplazarlo con className.
+
+-El idioma si, viene por default en ingles, pero ahi deberiamos poner "es" seguramente.
+
+-Ojo que con la clase img-fluid que le habias agregado a las fotos en homeview se nos descuadraba todo el scroll,  y la posicion fixed. Ahi lo arreglé.
+
+-Por otro lado, sé que la idea inicial era que aparezcan los datos principales apenas se abria la pagina, pero considero que tambien para que se aprecien las fotos y tal, el filtro blanco no iria bien y tampoco se llega a apreciar tanto el texto con ese filtro. 
+Tenemos en la barra de navegación el boton de accion de llamada, despues tenemos info sobre contacto y etc apenas scrollean, y tambien en el footer de la pagina esta toda la info. Creo que esta bastante accesible y tiene presencia en la pagina. Si me gustaria agregar en algun lado mas visible la dirección, quizas en la parte de contacto también.
+
+-El tema de la foto de homeview que sigue al scrollear fue sin querer, pero lo deje porque me parecio que le daba dinamismo un poco a la pagina, y mas presencia a las fotos tmb.
+
+-La parte del sobre nosotros no queda mal pero no me convence asi, creo que quedaria mejor como grilla, de un lado el texto fijo y del otro un carousel o quizas una grilla de fotos, lastima que no pude verla en grilla como quedaba, si vos estas conforme con el resultado lo dejamos asi. Lo unico que te lo modularice, es decir, pase todo ese codigo y lo puse en otro componente, porque te acordas que estabamos trabajando asi? Es mas facil para reconocer errores y el codigo mas limpio/ordenado.
+
+*Arreglado el espacio debajo del mapa 
+
+-Arreglado espaciado en varias partes de la pagina, a mi parecer estaba todo muy junto en ciertas partes entre textos e imagenes, o secciones.
+
+nota al pie: ojo cuando grabas cambios, hice un montonazo de cambios la otra vez que ahora no están asique se deben haber sobreescrito cuando guardaste tu avance. Alguna configuracion de git para guardar cuando hay dos ramas superpuestas esta haciendo eso.
+
+
+09/8
+
+modifique contacto, agregue ubicacion. 
+falta corregir responsive designs
+me gustaria que en pantallas de 991px haya dos filas de 2 columnas cada una. y lo sea igual para pantallas mas chicas.
+991 son tabletas, por consiguiente el hover no es necesario
+
+Me gustaria cambiar el tamaño del menu, para cuando la pantalla esta en 1000px que aun es ordenador, el menu se ve muy pequeño
+al ancho 450 px, las fotos de las pizzas se ven genial, pero el menu es pequeño
+-------------------------------------------
+16/01
+Agregue el correo para cuando el usuario quiera hacer una reserva por correo.
+cambie un testimonial
+arregle que cuando si pincha en inicio, o el logo, o en la flecha para arriba del sidebar, la pantalla se scrolee para el top de la pagina.
+
+QUIERO corregir
+"inicio" queda siempre seleccionado, por mas que estes en otra seccion.
+Quiero que el menu hamburguesa desaparezca (se cierre automaticamente)una vez el usuario pinche en la seccion que desea ir. 
+
+Verificar que esta la version en ingles en la pagina
+verificar que al achicarse la pantalla, el menu hamburguesa queda al costado derecho, desapareciendo el logo telefono e idioma
+
+
+25 de enero
+
+Errores a modificar:
+idioma
+El nav bar cuando la pantall se achica, le falta margen inferior.
+La foto de fra en about us, tiene un tamaño distinto
+El footer, la direccion hace algo raro al achicar la pantalla
+
+29 DE enero
+
+Las pizzas con sus ingredientes estan desordenadas.
+
+31 de enero
+Añadiste scripts.js como archivo.. tambien lo agregaste a index.html en la linea 11. (eso ya lo borraste)
+Notaste que hay dos index.html. uno dentro de src y otra fuera.. preguntar si es correcto
+
+en el navbar, donde esta el dropdown de las banderas, en cada <a> agregaste className="flags_item" data-language="es" jugaste con esto en navbar.css
+
+tenes creado un component llamado language. hay que borrarlo.
+
+los botones de las banderas funcionan.. al hacer click te dirigen al comienzo de la pagina. Mi idea es que al hacer click, te lleven a un clon de la pagina en su idioma correspondinte. 
+Tambien al hacer click, ese icono de bandera debe quedar seleccionado

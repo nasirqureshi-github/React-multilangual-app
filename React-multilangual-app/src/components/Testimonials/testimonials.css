@@ -1,0 +1,72 @@
+.testimonials {
+  /* background-image: url("/assets/contact/2.png"); */
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  padding: 2rem 4rem;
+  box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
+  height: 100%;
+}
+.testimonials h2 {
+  text-align: center;
+  font-size: 1.8em;
+  font-variation-settings: "wght" 400;
+  margin-bottom: 1.2em;
+
+}
+.comment {
+  box-shadow: #e6d2cfcc 5px 10px 10px 0px;
+  padding: 2rem;
+}
+
+.message {
+  padding: 0rem 7rem;
+  font-variation-settings: "wght" 400;
+  font-style: italic;
+  font-size: 1em;
+  line-height: 2rem;
+  text-align: center;
+  color: #3d3d3d;
+}
+
+@media (max-width: 991px) {
+  .comment {
+    margin-bottom: 2rem;
+    box-shadow: none;
+  }
+
+  #commentimg {
+    max-width: 15%;
+  }
+
+  .message {
+    padding: 0rem 7rem;
+    font-variation-settings: "wght" 400;
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #3d3d3d;
+  }
+}
+
+@media (max-width: 767px) {
+  .message {
+    margin-bottom: 0.5rem;
+    padding: 0rem 1rem;
+    font-variation-settings: "wght" 400;
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #3d3d3d;
+  }
+
+  .comment {
+    margin: 0;
+    padding: 0;
+    padding-top: 1.5rem;
+  }
+}

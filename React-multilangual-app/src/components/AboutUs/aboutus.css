@@ -1,0 +1,48 @@
+.us-container > div > h2 {
+  font-variation-settings: "wght" 700;
+  font-size: 2rem;
+  color: #3d3d3d;
+  margin-bottom: 6rem;
+}
+
+.textAb {
+  padding: 0rem 7rem;
+  font-variation-settings: "wght" 400;
+  font-style: italic;
+  font-size: 1em;
+  color: #3d3d3d;
+  text-align: center;
+  line-height: 2rem;
+  margin-top: 2em;
+}
+
+.us-container {
+  padding: 2rem 2rem;
+  background-color: #fbf7f7;
+  box-shadow: 0px 0px 10px 0px rgba(183, 182, 182, 0.75);
+}
+
+.container {
+  border-radius: 10px;
+  padding: 1px;
+  margin-bottom: 15px;
+}
+
+.us-title {
+  font-variation-settings: "wght" 700;
+  font-size: 2rem;
+  color: #3d3d3d;
+  margin-bottom: 1.3em;
+}
+
+@media (max-width: 991px) {
+  p.textAb {
+    padding: 0rem 7rem;
+    font-variation-settings: "wght" 400;
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #3d3d3d;
+  }
+}
